@@ -7,6 +7,10 @@ inputs:
     description: "Who to greet"
     required: true
     default: "World"
+  MY_HANDLE:
+    description: "Hubber handle"
+    required: true
+    default: "Unknown!"
 
 runs:
   using: "docker"
